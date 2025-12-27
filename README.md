@@ -15,8 +15,8 @@ Application web de gestion des réservations de salles de réunion développée 
 
 1. **Cloner le repository**
    ```bash
-   git clone <repository-url> project-name
-   cd test-yohan-chabaud
+   git clone https://github.com/NOaMTL/test-technique.git
+   cd test-technique
    ```
 
 2. **Installer les dépendances PHP**
