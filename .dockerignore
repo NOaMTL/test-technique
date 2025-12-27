@@ -1,0 +1,59 @@
+# Fichiers et dossiers à ignorer lors du build Docker
+
+# Dépendances
+node_modules/
+vendor/
+
+# Environnement
+.env
+.env.*
+!.env.example
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# Tests
+tests/
+phpunit.xml
+.phpunit.result.cache
+
+# Build & Cache
+storage/framework/cache/*
+storage/framework/sessions/*
+storage/framework/views/*
+storage/logs/*
+bootstrap/cache/*
+public/hot
+public/storage
+
+# Documentation
+README.md
+*.md
+docs/
+
+# Docker
+docker-compose*.yml
+Dockerfile
+.dockerignore
+
+# NPM/Node
+npm-debug.log
+yarn-error.log
+.npm
+
+# Divers
+*.log
+.editorconfig
